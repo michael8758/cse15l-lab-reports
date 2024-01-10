@@ -4,4 +4,22 @@
 
 <img width="779" alt="Screenshot 2024-01-10 at 1 03 32 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/415606e6-cd7f-4dbf-96ca-bb7e9c6c0e36">
 
-cd stands for "change directory", which allows you to change the current working directory to the given path, but since there was no working directory when I ran this command, I am not changing anything, therefore there is nothing in the output and nothing changes. The output is not an error.
+cd stands for "change directory", which allows you to change the current working directory to the given path, but since im in the HOME DIRECTORY
+
+
+**cd - path to directory as an argument**
+**cd - path to a file as an argument**
+
+**ls - no arguments**
+
+<img width="511" alt="Screenshot 2024-01-10 at 1 24 12 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/4d4f4c90-ac21-4664-ba0f-adebeef0e4f0">
+
+**ls - path to directory as an argument**
+**ls - path to a file as an argument**
+
+**cat - no arguments**
+<img width="355" alt="Screenshot 2024-01-10 at 1 25 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/01045c30-0d78-4298-a511-43b65c304890">
+
+**cat - path to directory as an argument**
+**cat - path to a file as an argument**
+

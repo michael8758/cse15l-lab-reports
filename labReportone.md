@@ -27,6 +27,8 @@
 
 - The working directory when the command was run was /home
 
+- The output of this command is an error because the command cd can only take in arguments that are directory paths. Since I ran the command with a path to a file, the output of this command was an error.
+
 
 **ls - no arguments**
 

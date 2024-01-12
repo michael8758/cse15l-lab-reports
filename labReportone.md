@@ -70,6 +70,10 @@
 
 - The working directory when the command was run was /home
 
+- When running the cat command without an argument, the cat command defaults to reading from the terminal since there are no files for it to read. Since there are no files for it to read, it first prints out nothing, since it read nothing. Further, if I were to type any argument in the terminal and execute it, it would return the same thing as I typed for my argument because it is reading from the terminal.
+
+- The output of this command is not an error.
+
 **cat - path to directory as an argument**
 
 <img width="437" alt="Screenshot 2024-01-11 at 10 05 51 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e21e8d04-8011-48b5-ad51-5dd9f4d09224">

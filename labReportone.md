@@ -6,7 +6,7 @@
 
 *working directory: home directory*
 
-cd stands for "change directory", which allows you to change the current working directory to the given path, but since im in the HOME DIRECTORY
+- cd stands for "change directory", which allows you to change the current working directory to the given path, executing the cd command with no argument will change the directory to the home directory, but since I am already in the home directory, executing the cd command with no argument will not change my directory.
 
 
 **cd - path to directory as an argument**

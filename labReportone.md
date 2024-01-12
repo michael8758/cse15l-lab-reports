@@ -49,20 +49,44 @@
 
 - The working directory when the command was run was /home
 
-- 
+- After running ls with the argument "/home/lecture1", the output printed "Hello.class  Hello.java  messages  README", which represents a list of all the files and folders in the /home/lecture1 path.
 
+- The output of this command is not an error.
 
 
 **ls - path to a file as an argument**
 
+<img width="427" alt="Screenshot 2024-01-11 at 9 52 22 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/d03ccfdc-5c6e-492a-8369-e23cad347cff">
+
+- The working directory when the command was run was /home
+
+- After running ls with the argument "/home/lecture1/README", the output printed "/home/lecture1/README", which is the exact same as the argument. This happens because since there are no more files or folders in the given path, the output just prints out the path to the file entered in the argument.
+
+- The output of this command is not an error.
+
 **cat - no arguments**
+
 <img width="355" alt="Screenshot 2024-01-10 at 1 25 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/01045c30-0d78-4298-a511-43b65c304890">
 
+- The working directory when the command was run was /home
+
 **cat - path to directory as an argument**
+
+<img width="437" alt="Screenshot 2024-01-11 at 10 05 51 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e21e8d04-8011-48b5-ad51-5dd9f4d09224">
+
+- The working directory when the command was run was /home
+
+- The argument of this command is a path to a directory, which resulted in an error in the output due to the invalid input. The cat command is only meant to take in files, not directories, as it is meant to take in files and print the contents within it, and it is unable to do so with directories.
+
+- The output of this command is an error. The cat command is only meant to take in paths to a file, but the argument is a path to a directory, therefore it causes an erorr. The cat command is unable to read the contents of a directory, it is only able to read the contents of a file.
 
 **cat - path to a file as an argument**
 
 <img width="579" alt="Screenshot 2024-01-11 at 9 24 30 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/a7f7d4f4-320e-4713-858c-72bed2473d6b">
 
 - The working directory when the command was run was /home
+
+- When making the path to a file as the argument to the cat command, the output prints the contents in the file, which is exactly what is being displayed as occuring in the output. The path to the file given by "lecture1/messages/zh-cn.txt" allows the cat command to print out the contents inside the zh-cn.txt file, which is 你好世界.
+
+- The output of this command is not an error.
 

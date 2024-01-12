@@ -27,6 +27,8 @@
 
 - The working directory when the command was run was /home
 
+- After running the command "cd /home/lecture1/messages/de.txt", the output stated that the argument I entered was not a directory, and therefore it resulted in an error. Since the change directory command is only meant to take in paths to directories as an argument, a path to a file as the argument will automatically result in an error.
+
 - The output of this command is an error because the command cd can only take in arguments that are directory paths. Since I ran the command with a path to a file as the argument, the output of this command was an error.
 
 
@@ -39,11 +41,15 @@
 - ls stands for "list", which lists the files and folders in the given path. Since I am currently in the home directory, the ls command lists "hello.txt" and "lecture1" because those are the file and folder located in the home directory.
 
 - The output of this command is not an error.
-- 
+  
 
 **ls - path to directory as an argument**
 
 <img width="402" alt="Screenshot 2024-01-11 at 9 27 24 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/3065a277-7c73-44c6-8498-07550019e244">
+
+- The working directory when the command was run was /home
+
+- 
 
 
 

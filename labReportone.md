@@ -4,9 +4,9 @@
 
 <img width="779" alt="Screenshot 2024-01-10 at 1 03 32 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/415606e6-cd7f-4dbf-96ca-bb7e9c6c0e36">
 
-*working directory: home directory*
+- The working directory when the command was run was /home
 
-- cd stands for "change directory", which allows you to change the current working directory to the given path, executing the cd command with no argument will change the directory to the home directory, but since I am already in the home directory, executing the cd command with no argument will not change my directory.
+- cd stands for "change directory", which allows you to change the current working directory to the given path, runnning the cd command with no argument will change the directory to the home directory, but since I am already in the home directory, running the cd command with no argument will not change my directory.
 
 
 **cd - path to directory as an argument**

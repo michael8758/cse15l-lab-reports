@@ -19,19 +19,19 @@
 
 <img width="511" alt="Screenshot 2024-01-10 at 1 24 12 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/4d4f4c90-ac21-4664-ba0f-adebeef0e4f0">
 
-*working directory: home directory*
-
 - The working directory when the command was run was /home
 
-ls stands for "list", which lists the files and folders in the given path. Since I am currently in the home directory, the ls command lists "hello.txt" and "lecture1" because those are the file and folder located in the home directory. This is not an error.
+- ls stands for "list", which lists the files and folders in the given path. Since I am currently in the home directory, the ls command lists "hello.txt" and "lecture1" because those are the file and folder located in the home directory.
+
+- The output of this command is not an error.
 
 **ls - path to directory as an argument**
 
 <img width="500" alt="Screenshot 2024-01-10 at 1 37 41 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bc9cc760-5273-480d-b50e-14e992b01cf2">
 
-*working directory: home directory*
+- The working directory when the command was run was /home
 
-the command line shows "cd lecture1", in which I am changing the directory from the home directory to the lecture1 directory. After the command is executed, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
+- The command line shows "cd lecture1", in which I am changing the directory from the home directory to the lecture1 directory. After the command is executed, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
 
 **ls - path to a file as an argument**
 

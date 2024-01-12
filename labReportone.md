@@ -23,6 +23,11 @@
 
 **cd - path to a file as an argument**
 
+<img width="547" alt="Screenshot 2024-01-11 at 9 23 27 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e0b1a50e-b1ff-40aa-b3c8-d3bd8c6595e1">
+
+- The working directory when the command was run was /home
+
+
 **ls - no arguments**
 
 <img width="511" alt="Screenshot 2024-01-10 at 1 24 12 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/4d4f4c90-ac21-4664-ba0f-adebeef0e4f0">
@@ -35,11 +40,20 @@
 
 **ls - path to directory as an argument**
 
+<img width="402" alt="Screenshot 2024-01-11 at 9 27 24 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/3065a277-7c73-44c6-8498-07550019e244">
+
+
+
 **ls - path to a file as an argument**
 
 **cat - no arguments**
 <img width="355" alt="Screenshot 2024-01-10 at 1 25 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/01045c30-0d78-4298-a511-43b65c304890">
 
 **cat - path to directory as an argument**
+
 **cat - path to a file as an argument**
+
+<img width="579" alt="Screenshot 2024-01-11 at 9 24 30 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/a7f7d4f4-320e-4713-858c-72bed2473d6b">
+
+- The working directory when the command was run was /home
 

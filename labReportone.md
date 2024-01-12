@@ -13,6 +13,14 @@
 
 **cd - path to directory as an argument**
 
+<img width="500" alt="Screenshot 2024-01-10 at 1 37 41 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bc9cc760-5273-480d-b50e-14e992b01cf2">
+
+- The working directory when the command was run was /home
+
+- The command line shows "cd lecture1", in which I am changing the directory from the /home directory to the /home/lecture1 directory. After the command is run, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
+
+- The output of this command is not an error.
+
 **cd - path to a file as an argument**
 
 **ls - no arguments**
@@ -26,12 +34,6 @@
 - The output of this command is not an error.
 
 **ls - path to directory as an argument**
-
-<img width="500" alt="Screenshot 2024-01-10 at 1 37 41 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bc9cc760-5273-480d-b50e-14e992b01cf2">
-
-- The working directory when the command was run was /home
-
-- The command line shows "cd lecture1", in which I am changing the directory from the home directory to the lecture1 directory. After the command is executed, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
 
 **ls - path to a file as an argument**
 

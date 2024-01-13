@@ -8,7 +8,7 @@
 
 - The working directory when the command was run was /home
 
-- cd stands for "change directory", which allows you to change the current working directory to the given path, runnning the cd command with no argument will change the directory to the home directory, but since I am already in the home directory, running the cd command with no argument will not change my directory.
+- `cd` stands for "change directory", which allows you to change the current working directory to the given path, runnning the cd command with no argument will change the directory to the home directory, but since I am already in the home directory, running the cd command with no argument will not change my directory.
 
 - The output of this command is not an error.
 
@@ -19,7 +19,7 @@
 
 - The working directory when the command was run was /home
 
-- The command line shows "cd lecture1", in which I am changing the directory from the /home directory to the /home/lecture1 directory. After the command is run, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
+- The command line shows "`cd` lecture1", in which I am changing the directory from the /home directory to the /home/lecture1 directory. After the command is run, the prompt updates to the directory that I am in - "lecture1" - which is highlighted in green.
 
 - The output of this command is not an error.
 
@@ -29,9 +29,9 @@
 
 - The working directory when the command was run was /home
 
-- After running the command "cd /home/lecture1/messages/de.txt", the output stated that the argument I entered was not a directory, and therefore it resulted in an error. Since the change directory command is only meant to take in paths to directories as an argument, a path to a file as the argument will automatically result in an error.
+- After running the command "`cd` /home/lecture1/messages/de.txt", the output stated that the argument I entered was not a directory, and therefore it resulted in an error. Since the change directory command is only meant to take in paths to directories as an argument, a path to a file as the argument will automatically result in an error.
 
-- The output of this command is an error because the command cd can only take in arguments that are directory paths. Since I ran the command with a path to a file as the argument, the output of this command was an error.
+- The output of this command is an error because the command `cd` can only take in arguments that are directory paths. Since I ran the command with a path to a file as the argument, the output of this command was an error.
 
 ## `ls` Command Behaviour
 
@@ -41,7 +41,7 @@
 
 - The working directory when the command was run was /home
 
-- ls stands for "list", which lists the files and folders in the given path. Since I am currently in the home directory, the ls command lists "hello.txt" and "lecture1" because those are the file and folder located in the home directory.
+- `ls` stands for "list", which lists the files and folders in the given path. Since I am currently in the home directory, the `ls` command lists "hello.txt" and "lecture1" because those are the file and folder located in the home directory.
 
 - The output of this command is not an error.
   
@@ -52,7 +52,7 @@
 
 - The working directory when the command was run was /home
 
-- After running ls with the argument "/home/lecture1", the output printed "Hello.class  Hello.java  messages  README", which represents a list of all the files and folders in the /home/lecture1 path.
+- After running `ls` with the argument "/home/lecture1", the output printed "Hello.class  Hello.java  messages  README", which represents a list of all the files and folders in the /home/lecture1 path.
 
 - The output of this command is not an error.
 
@@ -63,7 +63,7 @@
 
 - The working directory when the command was run was /home
 
-- After running ls with the argument "/home/lecture1/README", the output printed "/home/lecture1/README", which is the exact same as the argument. This happens because since there are no more files or folders in the given path, the output just prints out the path to the file entered in the argument.
+- After running `ls` with the argument "/home/lecture1/README", the output printed "/home/lecture1/README", which is the exact same as the argument. This happens because since there are no more files or folders in the given path, the output just prints out the path to the file entered in the argument.
 
 - The output of this command is not an error.
 
@@ -76,7 +76,7 @@
 
 - The working directory when the command was run was /home
 
-- When running the cat command without an argument, the cat command defaults to reading from the terminal since there are no files for it to read. Since there are no files for it to read, it first prints out nothing, since it read nothing. Further, if I were to type any argument in the terminal and execute it, it would return the same thing as I typed for my argument because it is reading from the terminal.
+- When running the `cat` command without an argument, the `cat` command defaults to reading from the terminal since there are no files for it to read. Since there are no files for it to read, it first prints out nothing, since it read nothing. Further, if I were to type any argument in the terminal and execute it, it would return the same thing as I typed for my argument because it is reading from the terminal.
 
 - The output of this command is not an error.
 
@@ -86,9 +86,9 @@
 
 - The working directory when the command was run was /home
 
-- The argument of this command is a path to a directory, which resulted in an error in the output due to the invalid input. The cat command is only meant to take in files, not directories, as it is meant to take in files and print the contents within it, and it is unable to do so with directories.
+- The argument of this command is a path to a directory, which resulted in an error in the output due to the invalid input. The `cat` command is only meant to take in files, not directories, as it is meant to take in files and print the contents within it, and it is unable to do so with directories.
 
-- The output of this command is an error. The cat command is only meant to take in paths to a file, but the argument is a path to a directory, therefore it causes an erorr. The cat command is unable to read the contents of a directory, it is only able to read the contents of a file.
+- The output of this command is an error. The `cat` command is only meant to take in paths to a file, but the argument is a path to a directory, therefore it causes an erorr. The `cat` command is unable to read the contents of a directory, it is only able to read the contents of a file.
 
 **`cat` - path to a file as an argument**
 
@@ -96,7 +96,7 @@
 
 - The working directory when the command was run was /home
 
-- When making the path to a file as the argument to the cat command, the output prints the contents in the file, which is exactly what is being displayed as occuring in the output. The path to the file given by "lecture1/messages/zh-cn.txt" allows the cat command to print out the contents inside the zh-cn.txt file, which is 你好世界.
+- When making the path to a file as the argument to the `cat` command, the output prints the contents in the file, which is exactly what is being displayed as occuring in the output. The path to the file given by "lecture1/messages/zh-cn.txt" allows the `cat` command to print out the contents inside the zh-cn.txt file, which is 你好世界.
 
 - The output of this command is not an error.
 

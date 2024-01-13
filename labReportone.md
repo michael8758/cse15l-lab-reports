@@ -1,6 +1,8 @@
 # **Lab Report one**
 
-**cd - no arguments**
+## `cd` Command Behaviour
+
+**`cd` - no arguments**
 
 <img width="779" alt="Screenshot 2024-01-10 at 1 03 32 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/415606e6-cd7f-4dbf-96ca-bb7e9c6c0e36">
 
@@ -11,7 +13,7 @@
 - The output of this command is not an error.
 
 
-**cd - path to directory as an argument**
+**`cd` - path to directory as an argument**
 
 <img width="500" alt="Screenshot 2024-01-10 at 1 37 41 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bc9cc760-5273-480d-b50e-14e992b01cf2">
 
@@ -21,7 +23,7 @@
 
 - The output of this command is not an error.
 
-**cd - path to a file as an argument**
+**`cd` - path to a file as an argument**
 
 <img width="547" alt="Screenshot 2024-01-11 at 9 23 27 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e0b1a50e-b1ff-40aa-b3c8-d3bd8c6595e1">
 
@@ -31,8 +33,9 @@
 
 - The output of this command is an error because the command cd can only take in arguments that are directory paths. Since I ran the command with a path to a file as the argument, the output of this command was an error.
 
+## `ls` Command Behaviour
 
-**ls - no arguments**
+**`ls` - no arguments**
 
 <img width="511" alt="Screenshot 2024-01-10 at 1 24 12 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/4d4f4c90-ac21-4664-ba0f-adebeef0e4f0">
 
@@ -43,7 +46,7 @@
 - The output of this command is not an error.
   
 
-**ls - path to directory as an argument**
+**`ls` - path to directory as an argument**
 
 <img width="402" alt="Screenshot 2024-01-11 at 9 27 24 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/3065a277-7c73-44c6-8498-07550019e244">
 
@@ -54,7 +57,7 @@
 - The output of this command is not an error.
 
 
-**ls - path to a file as an argument**
+**`ls` - path to a file as an argument**
 
 <img width="427" alt="Screenshot 2024-01-11 at 9 52 22 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/d03ccfdc-5c6e-492a-8369-e23cad347cff">
 
@@ -64,7 +67,10 @@
 
 - The output of this command is not an error.
 
-**cat - no arguments**
+
+## `cat` Command Behaviour
+
+**`cat` - no arguments**
 
 <img width="355" alt="Screenshot 2024-01-10 at 1 25 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/01045c30-0d78-4298-a511-43b65c304890">
 
@@ -74,7 +80,7 @@
 
 - The output of this command is not an error.
 
-**cat - path to directory as an argument**
+**`cat` - path to directory as an argument**
 
 <img width="437" alt="Screenshot 2024-01-11 at 10 05 51 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e21e8d04-8011-48b5-ad51-5dd9f4d09224">
 
@@ -84,7 +90,7 @@
 
 - The output of this command is an error. The cat command is only meant to take in paths to a file, but the argument is a path to a directory, therefore it causes an erorr. The cat command is unable to read the contents of a directory, it is only able to read the contents of a file.
 
-**cat - path to a file as an argument**
+**`cat` - path to a file as an argument**
 
 <img width="579" alt="Screenshot 2024-01-11 at 9 24 30 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/a7f7d4f4-320e-4713-858c-72bed2473d6b">
 

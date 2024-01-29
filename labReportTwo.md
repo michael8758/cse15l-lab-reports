@@ -8,9 +8,11 @@
 <img width="1130" alt="Screenshot 2024-01-28 at 7 12 54 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/80433695-fc9b-4805-bbe0-c89c08c3c814">
 <img width="1123" alt="Screenshot 2024-01-28 at 7 13 51 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/951c924a-5c50-4f9a-abe6-e0adaf8b275a">
 
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+**Which methods in your code are called?**
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
 
 ## Part Two

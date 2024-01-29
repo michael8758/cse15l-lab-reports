@@ -21,13 +21,15 @@
 
 ## Part Two
 **The absolute path to the private key for your SSH key shown using `ls`**
-<img width="480" alt="Screenshot 2024-01-28 at 7 56 23 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/d9630994-a251-46c6-9272-b0a11f60a44c">
+<img width="436" alt="Screenshot 2024-01-29 at 11 01 59 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/ea2713d0-fcdc-4633-82f5-d11a69187c1e">
+
 
 **The absolute path to the public key for your SSH key shown using `ls`**
-<img width="524" alt="Screenshot 2024-01-28 at 7 57 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/fe50fd62-e5d9-4708-8994-f1180f4f076b">
+<img width="401" alt="Screenshot 2024-01-29 at 11 04 47 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/8f0f2b9c-d970-4dbc-bbde-4083c4da3da9">
 
 **Terminal interaction where I log into `ieng6` account without being asked for a password**
-<img width="1039" alt="Screenshot 2024-01-28 at 7 52 27 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/e977acfc-5303-406c-aa1d-737fb8daa830">
+<img width="567" alt="Screenshot 2024-01-29 at 11 07 07 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/a0230c48-917f-4911-b70b-2e12f3692c52">
+
 
 
 ## Part Three

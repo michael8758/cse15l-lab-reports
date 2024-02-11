@@ -1,5 +1,26 @@
 # **Part 1 - Bugs**
 
+## Failure Inducing Input
+```
+public void testReverseInPlaceFailure() {
+    int[] input = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input);
+}
+```
+
+## Non-Failure Inducing Input
+```
+public void testAverageWithoutLowest() {
+    double[] input = {1.0, 2.0, 3.0};
+    double result = ArrayExamples.averageWithoutLowest(input);
+    assertEquals(2.5, result, 0.0);
+}
+```
+## Symptom
+
+## Fixing the Bug
+
 # **Part 2 - Researching Commands**
 ## **Command: `find`**
 
@@ -119,6 +140,7 @@ The `-name` option for the `find` class searches for files or directories based 
 ./technical/government/Post_Rate_Comm
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
-./technical/911report```
+./technical/911report
+```
 
 The `-size' option for the `find` class searches for files that are above or below a certain size, where k - kilobytes, M - megabytes, G - gigatypes. In the examples I provided above, I searched for all files in the technical directory that are greater than 200 kilobytes, and also in the second example, I searched for files in the technical directory that are less than 50 kilobytes.

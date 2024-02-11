@@ -11,15 +11,34 @@ public void testReverseInPlaceFailure() {
 
 ## Non-Failure Inducing Input
 ```
-public void testAverageWithoutLowest() {
-    double[] input = {1.0, 2.0, 3.0};
-    double result = ArrayExamples.averageWithoutLowest(input);
-    assertEquals(2.5, result, 0.0);
+public void testReverseInPlaceSuccess() {
+  int[] input = {1, 2, 3, 4};
+  ArrayExamples.reverseInPlace(input);
+  assertArrayEquals(new int[]{4, 3, 3, 4}, input);
 }
 ```
+
 ## Symptom
+<img width="782" alt="Screenshot 2024-02-11 at 3 01 46 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/306c2b85-caba-4f1c-a80c-ccf5ddc26f11">
 
 ## Fixing the Bug
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+        int temp = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+    }
+}
+```
 
 # **Part 2 - Researching Commands**
 ## **Command: `find`**

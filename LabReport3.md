@@ -40,6 +40,8 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
+This fix addresses the issue because the original code does not use a temporary variable to hold a value during the process of the reversal. Further, it also incorrectly interates through the array, because it iterates through the entire array and in doing so, it leads to the elements returning to their original positions. The code that fixes this array creates a variable `temp` to store the value of the element during the reveresal process, which allows the reversal process to execeute without losing any data in the values. Further, by setting the iteration to only half the length of the array, it is ensured that there the elements are only swapped once and they do not go back to their original positions.
+
 # **Part 2 - Researching Commands**
 ## **Command: `find`**
 

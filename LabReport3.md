@@ -11,10 +11,10 @@ public void testReverseInPlaceFailure() {
 
 ## Non-Failure Inducing Input
 ```
-public void testReverseInPlaceSuccess() {
-  int[] input = {1, 2, 3, 4};
-  ArrayExamples.reverseInPlace(input);
-  assertArrayEquals(new int[]{4, 3, 3, 4}, input);
+public void testAverageWithoutLowest() {
+    double[] input = {1.0, 2.0, 3.0};
+    double result = ArrayExamples.averageWithoutLowest(input);
+    assertEquals(2.5, result, 0.0);
 }
 ```
 

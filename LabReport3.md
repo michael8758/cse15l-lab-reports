@@ -1,3 +1,5 @@
+# **Lab Report Three**
+---
 # **Part 1 - Bugs**
 
 ## Failure Inducing Input

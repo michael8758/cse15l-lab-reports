@@ -16,7 +16,7 @@
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 - The `String chatHistory` field changes everytime `/add-message` is used because it stores the history of the chat within it, and everytime I am using `/add-message`, the new message I am adding becomes stored within this field. In this specific example, I am adding `hello world` said by user `MacBook`, in which the url is `/add-message?s=Hello%20World&user=MacBook`. In doing so, the field changes to `MacBook: Hello World`.
-- In the second screen shot, I am adding the message `Samsung: My name is Apple`, which is also being stored in the `String chatHistory` field. Now the updated field contains both the previous added message and the current message that I am adding - "MacBook: Hello World" and "Samsung: My Name Is Apple".
+- In the second screen shot, I am adding the message `Samsung: My name is Apple`, which is also being stored in the `String chatHistory` field. Now the updated field contains both the previous added message and the current message that I am adding - `MacBook: Hello World` and `Samsung: My Name Is Apple`.
 
 **Screen shots of using `/add-message`**
 <img width="1130" alt="Screenshot 2024-01-28 at 7 12 54 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/80433695-fc9b-4805-bbe0-c89c08c3c814">

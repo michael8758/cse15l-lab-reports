@@ -166,4 +166,9 @@ The `-name` option for the `find` class searches for files or directories based 
 ./technical/911report
 ```
 
-The `-size' option for the `find` class searches for files that are above or below a certain size, where k - kilobytes, M - megabytes, G - gigatypes. In the examples I provided above, I searched for all files in the technical directory that are greater than 200 kilobytes, and also in the second example, I searched for files in the technical directory that are less than 50 kilobytes.
+The `-size' option for the `find` class searches for files that are above or below a certain size, where k - kibibytes, M - mebibytes, G - gibitypes. In the examples I provided above, I searched for all files in the technical directory that are greater than 200 kilobytes, and also in the second example, I searched for files in the technical directory that are less than 50 kilobytes.
+
+---
+### Sources Used
+
+https://man7.org/linux/man-pages/man1/find.1.html - (searched on google "find command-line options")

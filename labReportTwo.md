@@ -6,13 +6,17 @@
 
 **Which methods in your code are called?**
 - First the main method in the ChatServer class is called, then the handleRequest method is called everytime I use `/add-message`.
+- For the second screenshot, the handleRequest method is called everytime I use `/add-message`.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 - In the main method, the argument `String[] args` contains the port number for the server in which you are attemping to start.
-- In the handleRequest method, the argument `URI url` is meant to contain the path and query for the server. A relevent field within this     method is the `String chatHistory` field, where it stores the chat history after using `/add-message`.
+- In the handleRequest method, the argument `URI url` is meant to contain the path and query for the server. A relevent field within this method is the `String chatHistory` field, where it stores the chat history after using `/add-message`. The value of this field currently in the first screenshot is `MacBook: Hello World`
+- In the second screen shot, the main method argument `String[] args` contains the same port number for the server in which you are currently working in.
+- The handleRequest method argument `URI url`, which contains the field `String chatHistory` becomes updated to contain both `MacBook: Hello World` and the new message `Samsung: My name is Apple`.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
-- The `String chatHistory` field changes everytime `/add-message` is used because it stores the history of the chat within it, and everytime I am using `/add-message`, the new message I am adding becomes stored within this field.
+- The `String chatHistory` field changes everytime `/add-message` is used because it stores the history of the chat within it, and everytime I am using `/add-message`, the new message I am adding becomes stored within this field. In this specific example, I am adding "hello world" said by user "MacBook", in which the url is `/add-message?s=Hello%20World&user=MacBook`. In doing so, the field changes to "MacBook: Hello World".
+- In the second screen shot, I am adding the message "Samsung: My Name Is Apple", which is also being stored in the `String chatHistory` field. Now the updated field contains both the previous added message and the current message that I am adding - "MacBook: Hello World" and "Samsung: My Name Is Apple".
 
 **Screen shots of using `/add-message`**
 <img width="1130" alt="Screenshot 2024-01-28 at 7 12 54 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/80433695-fc9b-4805-bbe0-c89c08c3c814">

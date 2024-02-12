@@ -21,11 +21,13 @@
 
 ## Part Two
 **The absolute path to the private key for your SSH key shown using `ls`**
-<img width="436" alt="Screenshot 2024-01-29 at 11 01 59 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/ea2713d0-fcdc-4633-82f5-d11a69187c1e">
+<img width="337" alt="Screenshot 2024-02-11 at 8 31 56 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/3483b055-2bd5-409f-aca6-cbca9c54ca35">
+
 
 
 **The absolute path to the public key for your SSH key shown using `ls`**
-<img width="401" alt="Screenshot 2024-01-29 at 11 04 47 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/8f0f2b9c-d970-4dbc-bbde-4083c4da3da9">
+<img width="274" alt="Screenshot 2024-02-11 at 8 34 39 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/1f2d69d1-f7b3-41a2-a8fd-1f7206d1931f">
+
 
 **Terminal interaction where I log into `ieng6` account without being asked for a password**
 <img width="567" alt="Screenshot 2024-01-29 at 11 07 07 AM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/a0230c48-917f-4911-b70b-2e12f3692c52">

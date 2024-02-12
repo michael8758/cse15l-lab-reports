@@ -42,10 +42,12 @@ static void reverseInPlace(int[] arr) {
 
 This fix addresses the issue because the original code does not use a temporary variable to hold a value during the process of the reversal. Further, it also incorrectly interates through the array, because it iterates through the entire array and in doing so, it leads to the elements returning to their original positions. The code that fixes this array creates a variable `temp` to store the value of the element during the reveresal process, which allows the reversal process to execeute without losing any data in the values. Further, by setting the iteration to only half the length of the array, it is ensured that there the elements are only swapped once and they do not go back to their original positions.
 
+-----
+
 # **Part 2 - Researching Commands**
 ## **Command: `find`**
 
-`-type` option
+### `-type` option
 
 ```find ./technical -type d```
 
@@ -100,7 +102,7 @@ This fix addresses the issue because the original code does not use a temporary 
 The `-type` option for the `find` class specifies the type of file or directory that is being found. In the examples above, type `f` stands for file, and type `d` stands for directory.
 
 -----
-`-name` option
+### `-name` option
 
 ```find ./technical -name "biomed"```
 
@@ -136,7 +138,7 @@ The `-type` option for the `find` class specifies the type of file or directory 
 The `-name` option for the `find` class searches for files or directories based on the specified name. In the examples provided above, I used an example where I searched for a directory with the `biomed` keyword contained in it, and I also used `*.txt` to search for all files that contain the keyword `.txt`.
 
 ------
-`-size` option
+### `-size` option
 
 ```find ./technical -size +200k```
 

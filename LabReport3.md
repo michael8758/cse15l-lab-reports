@@ -113,6 +113,7 @@ The `-type` option for the `find` class specifies the type of file or directory 
 
 ```find ./technical -name "*.txt"```
 
+
 ```
 ./technical/plos/pmed.0020239.txt
 ./technical/plos/journal.pbio.0020241.txt
@@ -136,6 +137,7 @@ The `-type` option for the `find` class specifies the type of file or directory 
 ./technical/plos/journal.pbio.0020052.txt
 ./technical/plos/pmed.0020148.txt
 ```
+
 
 The `-name` option for the `find` class searches for files or directories based on the specified name. In the examples provided above, I used an example where I searched for a directory with the `biomed` keyword contained in it, and I also used `*.txt` to search for all files that contain the keyword `.txt`.
 

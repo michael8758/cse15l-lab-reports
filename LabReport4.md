@@ -12,3 +12,4 @@
 <img width="917" alt="Screenshot 2024-02-26 at 1 24 47 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bd5521db-fbe0-48d3-867a-caafc559e2bc">
 
 
+<img width="489" alt="Screenshot 2024-02-26 at 1 26 49 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/46fc5c46-194f-47a8-a06a-ed2b107229a3">

@@ -113,8 +113,8 @@ The `-type` option for the `find` class specifies the type of file or directory 
 
 ```find ./technical -name "*.txt"```
 
-
-```./technical/plos/pmed.0020239.txt
+```
+./technical/plos/pmed.0020239.txt
 ./technical/plos/journal.pbio.0020241.txt
 ./technical/plos/pmed.0020005.txt
 ./technical/plos/journal.pbio.0020043.txt

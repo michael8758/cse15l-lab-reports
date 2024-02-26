@@ -1,6 +1,7 @@
 # **Lab Report Four**
 ---
 ## **Step 4** - Logging into ieng6
+
 <img width="771" alt="Screenshot 2024-02-26 at 1 14 22 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/7bbf3b72-6045-43ce-91ab-997f482b0a55">
 
 Keys pressed: `ssh mil118@ieng6.ucsd.edu` `<enter>`. 
@@ -9,6 +10,7 @@ Typing `ssh mil118@ieng6.ucsd.edu` is the command to log into my ieng6 account, 
 
 ---
 ## **Step 5** - Clone your fork of the repository from your Github account (using the SSH URL)
+
 <img width="738" alt="Screenshot 2024-02-26 at 1 16 16 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/070f8747-77da-48bb-9f82-79974850ab39">
 
 Keys pressed: git clone `<Command-V>` `<enter>`.
@@ -39,13 +41,25 @@ Then, I used `<Command-C>` to copy the `java -cp .:lib/hamcrest-core-1.3.jar:lib
 
 <img width="378" alt="Screenshot 2024-02-26 at 1 24 13 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/7dfbf956-76cb-4013-811a-e58f62fbc1f8">
 
+Keys pressed: `vim` `ListExamples.java` `<enter>`.
+
+The `vim` command, followed by the file name `ListExamples.java`, allows me to make changes to file using vim. I used `<enter>` to execute the command, which brought me to the vim text editor.
 
 <img width="577" alt="Screenshot 2024-02-26 at 1 23 41 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/1e9ad26f-4b4f-4330-ad94-84286cddd902">
+
+Keys pressed: `/x1` `n` `n` `n` `n` `n` `n` `n` `<right>` `r` `2`.
+
+The `/x1` command searches for the first occurance of the characters `x1` in the entire file, then I press `n` to go to the next occurance of the same characters. When I get to the specific text that I need to change, I press the `<right>` key to hover over the `1` character. Now that I am hovering over the character, I press `r`, which stands for replace, and then I press the key `2` to replace the original character of `1` to the new character of `2`.
+
 
 ## **Step 8** - Run the tests, demonstrating that they now succeed
 
 <img width="917" alt="Screenshot 2024-02-26 at 1 24 47 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bd5521db-fbe0-48d3-867a-caafc559e2bc">
 
+Keys pressed:
 
-## **Step 8** - Commit and push the resulting change to your Github account
+
+## **Step 9** - Commit and push the resulting change to your Github account
 <img width="489" alt="Screenshot 2024-02-26 at 1 26 49 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/46fc5c46-194f-47a8-a06a-ed2b107229a3">
+
+Keys pressed:

@@ -15,7 +15,7 @@ Typing `ssh mil118@ieng6.ucsd.edu` is the command to log into my ieng6 account, 
 
 Keys pressed: git clone `<Command-V>` `<enter>`.
 
-I had previously copied my `SSH` URL using `<Command-C>`, so I pasted it into the command line using `<Command-V>`. I then press `<enter>` to execute the command.
+I had previously copied my `SSH` URL from Github, so I pasted it into the command line using `<Command-V>`. I then press `<enter>` to execute the command.
 
 ---
 ## **Step 6** - Run the tests, demonstrating that they fail
@@ -24,7 +24,7 @@ I had previously copied my `SSH` URL using `<Command-C>`, so I pasted it into th
 
 Keys pressed: `cd` `l` `<tab>` `<enter>`.
 
-I am using `cd` to change my directory to lab7, which contains all the code and test files. I then type `l` and `<tab>` because pressing `<tab>` autocompletes the command/path you are writing, and by writing `l`, it matches with the existing paths and autocompletes it based on the existing paths.
+I am using `cd` to change my directory to `lab7`, which contains all the code and test files. I then type `l` and `<tab>` because pressing `<tab>` autocompletes the command/path you are writing, and by writing `l`, it matches with the existing paths and autocompletes it based on the existing paths.
 
 
 <img width="917" alt="Screenshot 2024-02-26 at 1 17 48 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/3f23bced-8258-451f-8db4-51e930afd553">
@@ -58,9 +58,9 @@ The `/x1` command searches for the first occurance of the characters `x1` in the
 
 Keys pressed: `<up>` `<up>` `<up>` `<up>` `<enter>` , `<up>` `<up>` `<up>` `<up>` `<enter>`
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used the `<up>` arrow to access it. After getting it in the command line, I pressed `<enter>` to recompile the code.
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used the `<up>` arrow 4 times to access it. After getting it in the command line, I pressed `<enter>` to recompile the code.
 
-Then, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was also 4 up in the search history, so I used the `<up>` arrow key to access it. After getting it in the command line, I pressed `<enter>` to run the tests. 
+Then, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was also 4 up in the search history, so I used the `<up>` arrow key 4 times to access it. After getting it in the command line, I pressed `<enter>` to run the tests. 
 
 
 ## **Step 9** - Commit and push the resulting change to your Github account

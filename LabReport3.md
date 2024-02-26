@@ -108,7 +108,9 @@ The `-type` option for the `find` class specifies the type of file or directory 
 
 ```find ./technical -name "biomed"```
 
-``` ./technical/biomed```
+```
+./technical/biomed
+```
 
 ``` find ./technical -name "*.txt" ```
 

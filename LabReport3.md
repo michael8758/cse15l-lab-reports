@@ -13,10 +13,10 @@ public void testReverseInPlaceFailure() {
 
 ## Non-Failure Inducing Input
 ```
-public void testAverageWithoutLowest() {
-    double[] input = {1.0, 2.0, 3.0};
-    double result = ArrayExamples.averageWithoutLowest(input);
-    assertEquals(2.5, result, 0.0);
+public void testReverseInPlaceFailure() {
+    int[] input = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(new int[]{5, 4, 3, 4, 5}, input);
 }
 ```
 
@@ -113,8 +113,8 @@ The `-type` option for the `find` class specifies the type of file or directory 
 
 ```find ./technical -name "*.txt"```
 
-```
-./technical/plos/pmed.0020239.txt
+
+```./technical/plos/pmed.0020239.txt
 ./technical/plos/journal.pbio.0020241.txt
 ./technical/plos/pmed.0020005.txt
 ./technical/plos/journal.pbio.0020043.txt

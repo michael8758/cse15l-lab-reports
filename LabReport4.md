@@ -56,10 +56,16 @@ The `/x1` command searches for the first occurance of the characters `x1` in the
 
 <img width="917" alt="Screenshot 2024-02-26 at 1 24 47 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/bd5521db-fbe0-48d3-867a-caafc559e2bc">
 
-Keys pressed: `<up>` `<up>` `<up>` `<up>` `<enter>`, `<up>` `<up>` `<up>` `<up>` `<enter>`
+Keys pressed: `<up>` `<up>` `<up>` `<up>` `<enter>` , `<up>` `<up>` `<up>` `<up>` `<enter>`
+
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, so I used the `<up>` arrow to access it. After getting it in the command line, I pressed `<enter>` to recompile the code.
+
+Then, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was also 4 up in the search history, so I used the `<up>` arrow key to access it. After getting it in the command line, I pressed `<enter>` to run the tests. 
 
 
 ## **Step 9** - Commit and push the resulting change to your Github account
 <img width="489" alt="Screenshot 2024-02-26 at 1 26 49 PM" src="https://github.com/michael8758/cse15l-lab-reports/assets/152559576/46fc5c46-194f-47a8-a06a-ed2b107229a3">
 
-Keys pressed:
+Keys pressed: `git add .` `<enter>` , `git commit -m "Fix failing test"` `<enter>` , `git push origin main` `<enter>`
+
+First, I typed `git add .`, which adds all the files from my current directory to the index and prepares it to be committed. I press `<enter>` to execute this command. Now, I am enabled to type `git commit -m "Fix failing test"`, which allows me to commit all the changes I made to the files, and the message I enter is "Fix failing test", which is what I did with the changes that I made to the file. I press `<enter>`, which executes the command, thus committing the changes to the files. Next, I type `git push origin main`, which pushes the new changed files to the main branch of the original repository where it was originally cloned from. I then press `<enter>` to execute this command.
